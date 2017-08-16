@@ -1,0 +1,28 @@
+body {
+  color: black;
+}
+
+.main {
+  padding: 4rem;
+  max-width: 70rem;
+  margin: calc(100% - 6em) auto 0;
+}
+
+#background {
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../images/floating.jpg');
+  background-size: cover;
+  background-position: top center;
+  z-index: -1;
+  transition: opacity 0.5s ease;
+}
+
+h1, h2 {
+  font-family: 'EB Garamond', serif;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+}
